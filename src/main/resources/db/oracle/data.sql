@@ -1,0 +1,11 @@
+INSERT INTO students(id, name, class, birth_date, created_timestamp)  VALUES  (1, 'WU', 'CS', sysdate, systimestamp);
+INSERT INTO students(id, name, class, birth_date, created_timestamp)  VALUES  (2, 'CHEN', 'CS', sysdate, systimestamp);
+INSERT INTO students(id, name, class, birth_date, created_timestamp)  VALUES  (3, 'YE', 'CS', sysdate, systimestamp);
+INSERT INTO students(id, name, class, birth_date, created_timestamp)  VALUES  (4, 'MA', 'CS', sysdate, systimestamp);
+INSERT INTO students(id, name, class, birth_date, created_timestamp)  VALUES  (5, 'LEO', 'CS', sysdate, systimestamp);
+INSERT INTO students(id, name, class, birth_date, created_timestamp)  VALUES  (6, 'ROY', 'CS', sysdate, systimestamp);
+INSERT INTO students(id, name, class, birth_date, created_timestamp)  VALUES  (7, 'RAJ', 'CS', sysdate, systimestamp);
+INSERT INTO students(id, name, class, birth_date, created_timestamp)  VALUES  (8, 'CHERRY', 'CS', sysdate, systimestamp);
+INSERT INTO students(id, name, class, birth_date, created_timestamp)  VALUES  (9, 'FRED', 'CS', sysdate, systimestamp);
+INSERT INTO description(id, content)  VALUES (1, to_clob('clob''some very long string here, greater than 4000 characters'));
+INSERT INTO attachment(file_id, content)  VALUES (1, hextoraw('453d7a34'));
